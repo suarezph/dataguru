@@ -12,7 +12,6 @@ export const InfiniteMovingCards = ({
 }: {
   items: {
     quote: string;
-    name: string;
     title: string;
   }[];
   direction?: 'left' | 'right';
@@ -86,7 +85,7 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             className="w-[350px] max-w-full relative rounded-2xl border border-slate-700 px-8 py-6 md:w-[450px]"
-            key={item.name}>
+            key={item.title}>
             <blockquote>
               <div
                 aria-hidden="true"
