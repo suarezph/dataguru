@@ -190,9 +190,15 @@ export default function Contact() {
                   name="firstName"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-black">First name</FormLabel>
+                      <FormLabel className="text-black font-bold">
+                        First name
+                      </FormLabel>
                       <FormControl>
-                        <Input placeholder="John" {...field} />
+                        <Input
+                          placeholder="John"
+                          {...field}
+                          className="border border-black"
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -203,9 +209,15 @@ export default function Contact() {
                   name="lastName"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-black">Last name</FormLabel>
+                      <FormLabel className="text-black font-bold">
+                        Last name
+                      </FormLabel>
                       <FormControl>
-                        <Input placeholder="Doe" {...field} />
+                        <Input
+                          placeholder="Doe"
+                          {...field}
+                          className="border border-black"
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -216,12 +228,15 @@ export default function Contact() {
                   name="email"
                   render={({ field }) => (
                     <FormItem className="sm:col-span-2">
-                      <FormLabel className="text-black">Email</FormLabel>
+                      <FormLabel className="text-black font-bold">
+                        Email
+                      </FormLabel>
                       <FormControl>
                         <Input
                           type="email"
                           placeholder="johndoe@example.com"
                           {...field}
+                          className="border border-black"
                         />
                       </FormControl>
                       <FormMessage />
@@ -233,12 +248,15 @@ export default function Contact() {
                   name="phoneNumber"
                   render={({ field }) => (
                     <FormItem className="sm:col-span-2">
-                      <FormLabel className="text-black">Phone number</FormLabel>
+                      <FormLabel className="text-black font-bold">
+                        Phone number
+                      </FormLabel>
                       <FormControl>
                         <Input
                           type="tel"
                           placeholder="+1234567890"
                           {...field}
+                          className="border border-black"
                         />
                       </FormControl>
                       <FormMessage />
@@ -250,11 +268,14 @@ export default function Contact() {
                   name="message"
                   render={({ field }) => (
                     <FormItem className="sm:col-span-2">
-                      <FormLabel className="text-black">Message</FormLabel>
+                      <FormLabel className="text-black font-bold">
+                        Message
+                      </FormLabel>
                       <FormControl>
                         <Textarea
                           placeholder="Your message here..."
                           {...field}
+                          className="border border-black"
                         />
                       </FormControl>
                       <FormMessage />
