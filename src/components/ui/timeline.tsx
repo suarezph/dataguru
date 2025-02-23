@@ -30,7 +30,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   return (
     <div className="w-full bg-slate-50 font-sans md:px-10" ref={containerRef}>
       <div className="pt-36 px-4 md:px-8 lg:px-10 text-center pb-24">
-        <h2 className="text-black text-5xl font-bold">
+        <h2 className="text-black text-4xl md:text-5xl font-bold">
           The eCom Data Optimization System
         </h2>
       </div>
