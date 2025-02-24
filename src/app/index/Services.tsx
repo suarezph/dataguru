@@ -76,14 +76,14 @@ export default function Services() {
                   {feature.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base/7 text-gray-600">
-                  <p className="flex-auto">{feature.description}</p>
-                  <p className="mt-6">
+                  <div className="flex-auto">{feature.description}</div>
+                  <div className="mt-6">
                     <a
                       href={feature.href}
                       className="text-sm/6 font-semibold text-gray-800">
                       Learn more <span aria-hidden="true">→</span>
                     </a>
-                  </p>
+                  </div>
                 </dd>
               </div>
             ))}
