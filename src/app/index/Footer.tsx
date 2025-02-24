@@ -1,12 +1,6 @@
 'use client';
 import React from 'react';
 
-interface SocialIcon {
-  name: string;
-  href: string;
-  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-}
-
 const navigation = [
   {
     name: 'Facebook',
