@@ -11,7 +11,7 @@ export function HowItWorks() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Initial Consultation</p>
-          <DummyContent />
+          <HowItWorksContent />
         </div>
       ),
     },
@@ -21,7 +21,7 @@ export function HowItWorks() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Data Analysis & Strategy</p>
-          <DummyContent />
+          <HowItWorksContent />
         </div>
       ),
     },
@@ -31,7 +31,7 @@ export function HowItWorks() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Implementation</p>
-          <DummyContent />
+          <HowItWorksContent />
         </div>
       ),
     },
@@ -41,7 +41,7 @@ export function HowItWorks() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Ongoing Support & Optimization</p>
-          <DummyContent />
+          <HowItWorksContent />
         </div>
       ),
     },
@@ -60,7 +60,7 @@ export function HowItWorks() {
   );
 }
 
-const DummyContent = () => {
+const HowItWorksContent = () => {
   return (
     <Image
       src="/linear.webp"

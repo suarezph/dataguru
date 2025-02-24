@@ -129,7 +129,7 @@ const words = [
   },
 ];
 
-export default function Example() {
+export default function Hero() {
   return (
     <div className="relative isolate">
       <AnimatedBackground />
